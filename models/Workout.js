@@ -21,7 +21,7 @@ const WorkoutSchema = new Schema({
         },
         duration: {
             type: Number,
-            required: true,
+            required: "Please enter time exercised",
             trim: true
         },
         distance: Number,
